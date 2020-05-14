@@ -1049,6 +1049,13 @@ body {
   font-weight: 400;
   display: block;
   margin: 0px 34px 0px 0px;
+  -webkit-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.contacts__tel:hover {
+  color: #ffc222;
 }
 
 .contacts__tel::before {
@@ -1064,6 +1071,13 @@ body {
   font-size: 14px;
   font-weight: 400;
   display: block;
+  -webkit-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.contacts__email:hover {
+  color: #ffc222;
 }
 
 .contacts__email_foot {
@@ -1083,6 +1097,13 @@ body {
   font-size: 14px;
   font-weight: 400;
   display: block;
+  -webkit-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.contacts__adress:hover {
+  color: #ffc222;
 }
 
 .contacts__adress::before {
@@ -1138,6 +1159,7 @@ body {
   -webkit-transition: border-color 0.3s ease;
   -o-transition: border-color 0.3s ease;
   transition: border-color 0.3s ease;
+  cursor: pointer;
 }
 
 .menu__item:hover {
@@ -1355,6 +1377,13 @@ body {
   background-color: transparent;
   text-align: center;
   padding-top: 5px;
+  -webkit-transition: border-color 0.3s ease;
+  -o-transition: border-color 0.3s ease;
+  transition: border-color 0.3s ease;
+}
+
+.services__btn:hover {
+  border-color: #ffc222;
 }
 
 .info {
@@ -2361,8 +2390,18 @@ body {
     width: 30px;
   }
 
+  .consultation__form {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
   .info__line {
     display: none;
+  }
+
+  .form__column:first-child {
+    margin-right: 0;
   }
 
   .blog__icon {
