@@ -1614,7 +1614,7 @@ body {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  background: url(../img/select.svg) 95% 50%/12px 50% no-repeat;
+  background: url(../icons/icons.svg#select) 95% 50%/12px 50% no-repeat;
 }
 
 .form textarea {
@@ -1804,7 +1804,7 @@ body {
   display: block;
   width: 65px;
   height: 31px;
-  background: #ffc222 url("../img/quote.svg") 50% 50%/15px 13px no-repeat;
+  background: #ffc222 url("../icons/icons.svg#quote") 50% 50%/15px 13px no-repeat;
 }
 
 .slider2__title {
@@ -2022,7 +2022,7 @@ body {
   width: 20px;
   height: 20px;
   margin-left: auto;
-  background: transparent url(../img/signs.svg) 0 0/contain;
+  background: transparent url(../icons/icons.svg#signs) 0 0/contain;
 }
 
 .modal__form {
